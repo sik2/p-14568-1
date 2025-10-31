@@ -4,12 +4,10 @@ spring:
   application:
     name: back
   profiles:
-    active: dev
+    active: prod
   output:
     ansi:
       enabled: always
-    hikari:
-      auto-commit: false
   jpa:
     hibernate:
       ddl-auto: update
